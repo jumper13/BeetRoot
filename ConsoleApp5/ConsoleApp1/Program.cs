@@ -37,17 +37,11 @@ class Program
         int dayOfYear = now.DayOfYear;  // Get class DayOfYear of object DateTime
         int restdaysofYear = 366 - dayOfYear;
 
-        Console.WriteLine("Today is:" + now);
-
+        Console.WriteLine("Today date is:" + now);
         Console.WriteLine("Today's day number of Calendar Year is:" + dayOfYear);
-
         Console.WriteLine("Untill the end of the year have:" + restdaysofYear);
+
+
         
-
-
-
-
-
-
     }
 }
